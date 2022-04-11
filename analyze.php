@@ -64,19 +64,8 @@ foreach (readByLines('php://stdin', 'r') as $logLine) {
 		echo 'cant parse the log line № '.$count + 1;
 	}	
 }
-var_dump($badRequests);
-/*echo $count.'
-';
 
 
-
-$badRequestsCount = count($badRequests);
-
-
-echo 'bad requests count: '.$badRequestsCount.'
-';
-
-*/
 
 /* Из плохих запросов составляем интервалы. Интервалы могут быть любой длины. Здесь также используем генератор	*/
 
